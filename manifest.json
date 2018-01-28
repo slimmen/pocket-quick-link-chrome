@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pocket quick link",
+  "description": "This plugin adds a quick link to get to your pocket list",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "pocket-icon.png",
+    "default_title": "Pocket quick link"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
